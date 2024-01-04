@@ -1,0 +1,2 @@
+Invoking command in '/home/leo/ROS/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/test -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/install/test
+Invoked command in '/home/leo/ROS/build/test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/test -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/install/test

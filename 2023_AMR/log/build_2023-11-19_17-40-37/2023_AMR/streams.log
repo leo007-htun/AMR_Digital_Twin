@@ -1,0 +1,24 @@
+[0.052s] Invoking command in '/home/leo/ROS/ws/src/2023_AMR/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/src/2023_AMR/install/2023_AMR
+[0.064s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.187s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.187s] -- Found rviz2: 11.2.8 (/opt/ros/humble/share/rviz2/cmake)
+[0.200s] -- Configuring incomplete, errors occurred!
+[0.200s] See also "/home/leo/ROS/ws/src/2023_AMR/build/2023_AMR/CMakeFiles/CMakeOutput.log".
+[0.200s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.200s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[0.200s]   this project has asked CMake to find a package configuration file provided
+[0.201s]   by "joint_state_publisher", but CMake did not find one.
+[0.201s] 
+[0.201s]   Could not find a package configuration file provided by
+[0.201s]   "joint_state_publisher" with any of the following names:
+[0.201s] 
+[0.201s]     joint_state_publisherConfig.cmake
+[0.201s]     joint_state_publisher-config.cmake
+[0.202s] 
+[0.202s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[0.202s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[0.202s]   above files.  If "joint_state_publisher" provides a separate development
+[0.202s]   package or SDK, be sure it has been installed.
+[0.202s] 
+[0.203s] [0m
+[0.204s] Invoked command in '/home/leo/ROS/ws/src/2023_AMR/build/2023_AMR' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/src/2023_AMR/install/2023_AMR

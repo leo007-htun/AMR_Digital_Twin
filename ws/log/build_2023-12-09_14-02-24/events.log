@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict()}
+[0.000271] (test_py) JobQueued: {'identifier': 'test_py', 'dependencies': OrderedDict()}
+[0.000592] (test) JobStarted: {'identifier': 'test'}
+[0.050235] (test_py) JobStarted: {'identifier': 'test_py'}
+[0.099941] (-) TimerEvent: {}
+[0.112695] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.112944] (test) Command: {'cmd': ['/usr/bin/cmake', '/home/leo/ROS/ws/src/test', '-DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/test'], 'cwd': '/home/leo/ROS/ws/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'leo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/leo/ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2714'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/leo/ROS/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'leo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/leo/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/JARVIS:@/tmp/.ICE-unix/2479,unix/JARVIS:/tmp/.ICE-unix/2479'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/beacc235_33a5_46af_bad9_3abca99e6d9f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/leo/ROS/ws/install/test_py:/home/leo/ROS/ws/install/test:/home/leo/ROS/ws/install/2023_AMR:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/leo/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leo/ROS/ws/build/test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/leo/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages:/home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leo/ROS/ws/install/test:/home/leo/ROS/ws/install/2023_AMR:/home/leo/ROS/ws/install/test_py:/opt/ros/humble')]), 'shell': False}
+[0.170446] (test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200062] (-) TimerEvent: {}
+[0.225254] (test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.232884] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300197] (-) TimerEvent: {}
+[0.306645] (test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.312636] (test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.312966] (test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.313293] (test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.315656] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.396438] (test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400284] (-) TimerEvent: {}
+[0.402809] (test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.403115] (test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.403441] (test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405705] (test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500424] (-) TimerEvent: {}
+[0.559549] (test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600836] (-) TimerEvent: {}
+[0.623600] (test_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/test_py', 'build', '--build-base', '/home/leo/ROS/ws/build/test_py/build', 'install', '--record', '/home/leo/ROS/ws/build/test_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/leo/ROS/ws/src/test_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'leo', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/leo/ROS', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2714', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/leo/ROS/ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'leo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'leo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/leo/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JARVIS:@/tmp/.ICE-unix/2479,unix/JARVIS:/tmp/.ICE-unix/2479', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/beacc235_33a5_46af_bad9_3abca99e6d9f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/leo/ROS/ws/install/test_py:/home/leo/ROS/ws/install/test:/home/leo/ROS/ws/install/2023_AMR:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/leo/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/leo/ROS/ws/build/test_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/leo/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leo/ROS/ws/build/test_py/prefix_override:/home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages:/home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages:/home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/leo/ROS/ws/install/test:/home/leo/ROS/ws/install/2023_AMR'}, 'shell': False}
+[0.661125] (test) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.662320] (test) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.665074] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.670890] (test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.701043] (-) TimerEvent: {}
+[0.707756] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.738959] (test) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.794704] (test_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.795092] (test_py) StdoutLine: {'line': b'creating ../../build/test_py/test_py.egg-info\n'}
+[0.795281] (test_py) StdoutLine: {'line': b'writing ../../build/test_py/test_py.egg-info/PKG-INFO\n'}
+[0.795409] (test_py) StdoutLine: {'line': b'writing dependency_links to ../../build/test_py/test_py.egg-info/dependency_links.txt\n'}
+[0.795517] (test_py) StdoutLine: {'line': b'writing entry points to ../../build/test_py/test_py.egg-info/entry_points.txt\n'}
+[0.795644] (test_py) StdoutLine: {'line': b'writing requirements to ../../build/test_py/test_py.egg-info/requires.txt\n'}
+[0.795711] (test_py) StdoutLine: {'line': b'writing top-level names to ../../build/test_py/test_py.egg-info/top_level.txt\n'}
+[0.795789] (test_py) StdoutLine: {'line': b"writing manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'\n"}
+[0.796951] (test_py) StdoutLine: {'line': b"reading manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'\n"}
+[0.797434] (test_py) StdoutLine: {'line': b"writing manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'\n"}
+[0.797531] (test_py) StdoutLine: {'line': b'running build\n'}
+[0.797596] (test_py) StdoutLine: {'line': b'running build_py\n'}
+[0.797681] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/build/test_py/build\n'}
+[0.797774] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/build/test_py/build/lib\n'}
+[0.797845] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/build/test_py/build/lib/test_py\n'}
+[0.797946] (test_py) StdoutLine: {'line': b'copying test_py/subscriber2.py -> /home/leo/ROS/ws/build/test_py/build/lib/test_py\n'}
+[0.798035] (test_py) StdoutLine: {'line': b'copying test_py/__init__.py -> /home/leo/ROS/ws/build/test_py/build/lib/test_py\n'}
+[0.798138] (test_py) StdoutLine: {'line': b'copying test_py/publisher2.py -> /home/leo/ROS/ws/build/test_py/build/lib/test_py\n'}
+[0.798237] (test_py) StdoutLine: {'line': b'running install\n'}
+[0.798418] (test_py) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.798499] (test_py) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.798589] (test_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.799068] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py\n'}
+[0.799160] (test_py) StdoutLine: {'line': b'copying /home/leo/ROS/ws/build/test_py/build/lib/test_py/subscriber2.py -> /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py\n'}
+[0.799260] (test_py) StdoutLine: {'line': b'copying /home/leo/ROS/ws/build/test_py/build/lib/test_py/__init__.py -> /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py\n'}
+[0.799371] (test_py) StdoutLine: {'line': b'copying /home/leo/ROS/ws/build/test_py/build/lib/test_py/publisher2.py -> /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py\n'}
+[0.799662] (test_py) StdoutLine: {'line': b'byte-compiling /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py/subscriber2.py to subscriber2.cpython-310.pyc\n'}
+[0.800022] (test_py) StdoutLine: {'line': b'byte-compiling /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py/__init__.py to __init__.cpython-310.pyc\n'}
+[0.800145] (test_py) StdoutLine: {'line': b'byte-compiling /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py/publisher2.py to publisher2.cpython-310.pyc\n'}
+[0.800427] (test_py) StdoutLine: {'line': b'running install_data\n'}
+[0.800812] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/install/test_py/share/ament_index\n'}
+[0.800968] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/install/test_py/share/ament_index/resource_index\n'}
+[0.801105] (-) TimerEvent: {}
+[0.801286] (test_py) StdoutLine: {'line': b'creating /home/leo/ROS/ws/install/test_py/share/ament_index/resource_index/packages\n'}
+[0.801439] (test_py) StdoutLine: {'line': b'copying resource/test_py -> /home/leo/ROS/ws/install/test_py/share/ament_index/resource_index/packages\n'}
+[0.801555] (test_py) StdoutLine: {'line': b'copying package.xml -> /home/leo/ROS/ws/install/test_py/share/test_py\n'}
+[0.801668] (test_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.802462] (test_py) StdoutLine: {'line': b'Copying ../../build/test_py/test_py.egg-info to /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py-0.0.0-py3.10.egg-info\n'}
+[0.803190] (test_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.819558] (test_py) StdoutLine: {'line': b'Installing my_publisher script to /home/leo/ROS/ws/install/test_py/lib/test_py\n'}
+[0.819854] (test_py) StdoutLine: {'line': b'Installing my_subscriber script to /home/leo/ROS/ws/install/test_py/lib/test_py\n'}
+[0.819980] (test_py) StdoutLine: {'line': b"writing list of installed files to '/home/leo/ROS/ws/build/test_py/install.log'\n"}
+[0.846610] (test_py) CommandEnded: {'returncode': 0}
+[0.893761] (test_py) JobEnded: {'identifier': 'test_py', 'rc': 0}
+[0.901290] (-) TimerEvent: {}
+[0.930036] (test) StdoutLine: {'line': b'-- Found ros_ign_gazebo: 0.244.11 (/opt/ros/humble/share/ros_ign_gazebo/cmake)\n'}
+[0.986546] (test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.989156] (test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001395] (-) TimerEvent: {}
+[1.101697] (-) TimerEvent: {}
+[1.117790] (test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.147847] (test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.200815] (test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.201782] (-) TimerEvent: {}
+[1.209306] (test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.287303] (test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.287613] (test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301931] (-) TimerEvent: {}
+[1.364030] (test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.364837] (test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.402061] (-) TimerEvent: {}
+[1.502460] (-) TimerEvent: {}
+[1.603254] (-) TimerEvent: {}
+[1.703713] (-) TimerEvent: {}
+[1.804212] (-) TimerEvent: {}
+[1.904663] (-) TimerEvent: {}
+[2.005144] (-) TimerEvent: {}
+[2.105587] (-) TimerEvent: {}
+[2.205997] (-) TimerEvent: {}
+[2.306348] (-) TimerEvent: {}
+[2.406687] (-) TimerEvent: {}
+[2.412291] (test) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.506968] (-) TimerEvent: {}
+[2.579308] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.607131] (-) TimerEvent: {}
+[2.707568] (-) TimerEvent: {}
+[2.807930] (-) TimerEvent: {}
+[2.816718] (test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.838095] (test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.842092] (test) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.867236] (test) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.867515] (test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.867639] (test) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.867755] (test) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.887239] (test) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.908078] (-) TimerEvent: {}
+[2.926800] (test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.946434] (test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.947680] (test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.948510] (test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.952773] (test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.955431] (test) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):\n'}
+[2.955662] (test) StderrLine: {'line': b'  The target name "test" is reserved when CTest testing is enabled.\n'}
+[2.955785] (test) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.955898] (test) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[2.956008] (test) StderrLine: {'line': b'\n'}
+[2.956119] (test) StderrLine: {'line': b'\x1b[0m\n'}
+[2.956229] (test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.956347] (test) StdoutLine: {'line': b'See also "/home/leo/ROS/ws/build/test/CMakeFiles/CMakeOutput.log".\n'}
+[2.968969] (test) CommandEnded: {'returncode': 1}
+[3.008377] (-) TimerEvent: {}
+[3.009775] (test) JobEnded: {'identifier': 'test', 'rc': 1}
+[3.021135] (-) EventReactorShutdown: {}

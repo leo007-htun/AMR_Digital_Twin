@@ -1,0 +1,4 @@
+Invoking command in '/home/leo/ROS/build/test': /usr/bin/cmake --build /home/leo/ROS/build/test -- -j16 -l16
+Invoked command in '/home/leo/ROS/build/test' returned '0': /usr/bin/cmake --build /home/leo/ROS/build/test -- -j16 -l16
+Invoking command in '/home/leo/ROS/build/test': /usr/bin/cmake --install /home/leo/ROS/build/test
+Invoked command in '/home/leo/ROS/build/test' returned '0': /usr/bin/cmake --install /home/leo/ROS/build/test

@@ -1,0 +1,2 @@
+Invoking command in '/home/leo/ROS/ws/src/2023_AMR/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/src/2023_AMR/install/2023_AMR
+Invoked command in '/home/leo/ROS/ws/src/2023_AMR/build/2023_AMR' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/src/2023_AMR/install/2023_AMR

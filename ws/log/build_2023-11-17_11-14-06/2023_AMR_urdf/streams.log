@@ -1,0 +1,41 @@
+[0.100s] Invoking command in '/home/leo/ROS/ws/build/2023_AMR_urdf': /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR_urdf -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/2023_AMR_urdf
+[0.117s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.117s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.117s]   CMake.
+[0.117s] 
+[0.117s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.118s]   CMake that the project does not need compatibility with older versions.
+[0.118s] 
+[0.118s] [0m
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.305s] -- The CXX compiler identification is GNU 11.4.0
+[0.316s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.410s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.533s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.562s] -- Configuring incomplete, errors occurred!
+[0.562s] See also "/home/leo/ROS/ws/build/2023_AMR_urdf/CMakeFiles/CMakeOutput.log".
+[0.562s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.562s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.563s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.563s]   CMake did not find one.
+[0.563s] 
+[0.563s]   Could not find a package configuration file provided by "catkin" with any
+[0.563s]   of the following names:
+[0.563s] 
+[0.563s]     catkinConfig.cmake
+[0.563s]     catkin-config.cmake
+[0.563s] 
+[0.563s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.563s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.563s]   provides a separate development package or SDK, be sure it has been
+[0.563s]   installed.
+[0.563s] 
+[0.563s] [0m
+[0.566s] Invoked command in '/home/leo/ROS/ws/build/2023_AMR_urdf' returned '1': /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR_urdf -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/2023_AMR_urdf

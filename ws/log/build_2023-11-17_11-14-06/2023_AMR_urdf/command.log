@@ -1,0 +1,2 @@
+Invoking command in '/home/leo/ROS/ws/build/2023_AMR_urdf': /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR_urdf -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/2023_AMR_urdf
+Invoked command in '/home/leo/ROS/ws/build/2023_AMR_urdf' returned '1': /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR_urdf -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/2023_AMR_urdf

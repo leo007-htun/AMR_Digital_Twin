@@ -1,0 +1,37 @@
+[0.092s] Invoking command in '/home/leo/ROS/ws/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/2023_AMR
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.284s] -- Detecting C compiler ABI info - done
+[0.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.292s] -- Detecting CXX compiler ABI info
+[0.374s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.531s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.606s] -- Found rviz2: 11.2.8 (/opt/ros/humble/share/rviz2/cmake)
+[0.618s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.618s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[0.618s]   this project has asked CMake to find a package configuration file provided
+[0.618s]   by "joint_state_publisher", but CMake did not find one.
+[0.618s] 
+[0.618s]   Could not find a package configuration file provided by
+[0.619s]   "joint_state_publisher" with any of the following names:
+[0.619s] 
+[0.619s]     joint_state_publisherConfig.cmake
+[0.619s]     joint_state_publisher-config.cmake
+[0.619s] 
+[0.619s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[0.619s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[0.619s]   above files.  If "joint_state_publisher" provides a separate development
+[0.619s]   package or SDK, be sure it has been installed.
+[0.619s] 
+[0.619s] [0m
+[0.619s] -- Configuring incomplete, errors occurred!
+[0.619s] See also "/home/leo/ROS/ws/build/2023_AMR/CMakeFiles/CMakeOutput.log".
+[0.623s] Invoked command in '/home/leo/ROS/ws/build/2023_AMR' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/2023_AMR

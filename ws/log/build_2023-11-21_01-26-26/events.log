@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000213] (-) JobUnselected: {'identifier': '2023_AMR'}
+[0.000244] (-) JobUnselected: {'identifier': 'test'}
+[0.000266] (-) JobUnselected: {'identifier': 'test-py'}
+[0.000284] (-) EventReactorShutdown: {}

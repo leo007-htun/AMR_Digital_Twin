@@ -1,0 +1,83 @@
+material RepeatedTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Metal011_1K-PNG_Color.png
+      }
+    }
+  }
+}
+
+material RepeatedTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Metal046A_1K-PNG_Color.png
+      }
+    }
+  }
+}
+
+material RepeatedTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Plastic007_1K-PNG_Color.png
+      }
+    }
+  }
+}
+
+material RepeatedTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Plastic008_1K-PNG_Color.png
+      }
+    }
+  }
+}
+
+material RepeatedTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Plastic011_1K-PNG_Color.png
+      }
+    }
+  }
+}
+
+material RepeatedTexture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Plastic012A_1K-PNG_Color.png
+      }
+    }
+  }
+}

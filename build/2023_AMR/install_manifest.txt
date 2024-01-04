@@ -1,0 +1,15 @@
+/home/leo/ROS/install/2023_AMR/share/ament_index/resource_index/package_run_dependencies/2023_AMR
+/home/leo/ROS/install/2023_AMR/share/ament_index/resource_index/parent_prefix_path/2023_AMR
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/ament_prefix_path.sh
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/ament_prefix_path.dsv
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/path.sh
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/path.dsv
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.bash
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.sh
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.zsh
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.dsv
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/package.dsv
+/home/leo/ROS/install/2023_AMR/share/ament_index/resource_index/packages/2023_AMR
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/cmake/2023_AMRConfig.cmake
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/cmake/2023_AMRConfig-version.cmake
+/home/leo/ROS/install/2023_AMR/share/2023_AMR/package.xml

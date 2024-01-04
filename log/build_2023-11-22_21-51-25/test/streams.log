@@ -1,0 +1,69 @@
+[0.122s] Invoking command in '/home/leo/ROS/build/test': /usr/bin/cmake --build /home/leo/ROS/build/test -- -j16 -l16
+[0.165s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.348s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.351s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.358s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.439s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.480s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.534s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.803s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.872s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.960s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.960s] -- Added test 'lint_cmake' to check CMake code style
+[0.961s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.964s] -- Configuring done
+[0.973s] -- Generating done
+[0.974s] -- Build files have been written to: /home/leo/ROS/build/test
+[1.027s] Built target ament_cmake_python_copy_scripts
+[1.222s] running egg_info
+[1.222s] writing scripts.egg-info/PKG-INFO
+[1.223s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.223s] writing top-level names to scripts.egg-info/top_level.txt
+[1.224s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.225s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[1.255s] Built target ament_cmake_python_build_scripts_egg
+[1.269s] Invoked command in '/home/leo/ROS/build/test' returned '0': /usr/bin/cmake --build /home/leo/ROS/build/test -- -j16 -l16
+[1.298s] Invoking command in '/home/leo/ROS/build/test': /usr/bin/cmake --install /home/leo/ROS/build/test
+[1.306s] -- Install configuration: ""
+[1.306s] -- Up-to-date: /home/leo/ROS/install/test/share/test/environment/pythonpath.sh
+[1.307s] -- Installing: /home/leo/ROS/install/test/share/test/environment/pythonpath.dsv
+[1.307s] -- Up-to-date: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[1.307s] -- Installing: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[1.307s] -- Installing: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[1.307s] -- Installing: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.308s] -- Installing: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.308s] -- Up-to-date: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts
+[1.308s] -- Installing: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/speed_calc.py
+[1.308s] -- Up-to-date: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/__init__.py
+[1.308s] -- Up-to-date: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[1.308s] -- Installing: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/rpm_pub.py
+[1.309s] -- Up-to-date: /home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/publisher.py
+[1.335s] Listing '/home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts'...
+[1.335s] Compiling '/home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/rpm_pub.py'...
+[1.335s] Compiling '/home/leo/ROS/install/test/local/lib/python3.10/dist-packages/scripts/speed_calc.py'...
+[1.339s] -- Up-to-date: /home/leo/ROS/install/test/lib/test/publisher.py
+[1.339s] -- Up-to-date: /home/leo/ROS/install/test/lib/test/subscriber.py
+[1.339s] -- Installing: /home/leo/ROS/install/test/lib/test/rpm_pub.py
+[1.340s] -- Installing: /home/leo/ROS/install/test/lib/test/speed_calc.py
+[1.340s] -- Up-to-date: /home/leo/ROS/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[1.340s] -- Up-to-date: /home/leo/ROS/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[1.340s] -- Up-to-date: /home/leo/ROS/install/test/share/test/environment/ament_prefix_path.sh
+[1.341s] -- Installing: /home/leo/ROS/install/test/share/test/environment/ament_prefix_path.dsv
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/test/environment/path.sh
+[1.341s] -- Installing: /home/leo/ROS/install/test/share/test/environment/path.dsv
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/test/local_setup.bash
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/test/local_setup.sh
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/test/local_setup.zsh
+[1.341s] -- Installing: /home/leo/ROS/install/test/share/test/local_setup.dsv
+[1.341s] -- Installing: /home/leo/ROS/install/test/share/test/package.dsv
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/ament_index/resource_index/packages/test
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/test/cmake/testConfig.cmake
+[1.341s] -- Up-to-date: /home/leo/ROS/install/test/share/test/cmake/testConfig-version.cmake
+[1.342s] -- Up-to-date: /home/leo/ROS/install/test/share/test/package.xml
+[1.344s] Invoked command in '/home/leo/ROS/build/test' returned '0': /usr/bin/cmake --install /home/leo/ROS/build/test

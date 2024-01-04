@@ -1,0 +1,85 @@
+[0.111s] Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+[0.179s] Built target ament_cmake_python_copy_scripts
+[0.382s] running egg_info
+[0.382s] writing scripts.egg-info/PKG-INFO
+[0.383s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.383s] writing top-level names to scripts.egg-info/top_level.txt
+[0.386s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.386s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.427s] Built target ament_cmake_python_build_scripts_egg
+[0.442s] Invoked command in '/home/leo/ROS/ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+[0.482s] Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --install /home/leo/ROS/ws/build/test
+[0.490s] -- Install configuration: ""
+[0.490s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/pythonpath.sh
+[0.490s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/pythonpath.dsv
+[0.490s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[0.490s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.490s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.491s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.491s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/speed_calc.py
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/rpm_pub.py
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/publisher.py
+[0.517s] Listing '/home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts'...
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/publisher.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/subscriber.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/rpm_pub.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/speed_calc.py
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/__pycache__
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/__pycache__/simulation.launch.cpython-310.pyc
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/turtle.launch.py
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/display.launch.py
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/simulation.launch.py
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/rpm_node.launch.py
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/launch/speed_project.launch.py
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/world
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/world/wheeled_model_world.sdf
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/world/AMR_world.sdf
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/world/diff_drive.sdf
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/world/test_world.sdf
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/world/warehouse.sdf
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/AMR_model
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/textures
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/model.config
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/spawn_bot.sdf
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/materials
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/VLP16_base_1.dae
+[0.525s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/VLP16_base_2.dae
+[0.526s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/base
+[0.526s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/base/tugbot_simp.dae
+[0.526s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/base/movai-logo.png
+[0.526s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/base/movai_logo.dae
+[0.526s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/base/tugbot_simp.stl
+[0.527s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/base/logo-new.png
+[0.527s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/VLP16_scan.dae
+[0.527s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/wheel
+[0.527s] -- Installing: /home/leo/ROS/ws/install/test/share/test/models/AMR_model/meshes/wheel/wheel.dae
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/ground_plane
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/ground_plane/model.config
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/ground_plane/2023_AMR.sdf
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/ground_plane/my_ground_plane.sdf
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/wheeled_model
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/wheeled_model/model.config
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/models/wheeled_model/model.sdf
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/ament_prefix_path.sh
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/ament_prefix_path.dsv
+[0.528s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/path.sh
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/path.dsv
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.bash
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.sh
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.zsh
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.dsv
+[0.529s] -- Installing: /home/leo/ROS/ws/install/test/share/test/package.dsv
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/ament_index/resource_index/packages/test
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/cmake/testConfig.cmake
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/cmake/testConfig-version.cmake
+[0.529s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/package.xml
+[0.531s] Invoked command in '/home/leo/ROS/ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --install /home/leo/ROS/ws/build/test

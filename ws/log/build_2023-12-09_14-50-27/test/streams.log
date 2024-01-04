@@ -1,0 +1,33 @@
+[0.109s] Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/test -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/test
+[0.120s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.248s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.482s] -- Found ros_ign_gazebo: 0.244.11 (/opt/ros/humble/share/ros_ign_gazebo/cmake)
+[0.525s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.686s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.084s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.109s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.135s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.135s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.159s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.170s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.171s] -- Added test 'lint_cmake' to check CMake code style
+[2.172s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.177s] -- Added test 'xmllint' to check XML markup files
+[2.179s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[2.179s]   The target name "test" is reserved when CTest testing is enabled.
+[2.179s] Call Stack (most recent call first):
+[2.179s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[2.179s] 
+[2.179s] [0m
+[2.179s] -- Configuring incomplete, errors occurred!
+[2.179s] See also "/home/leo/ROS/ws/build/test/CMakeFiles/CMakeOutput.log".
+[2.189s] Invoked command in '/home/leo/ROS/ws/build/test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/test -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/test

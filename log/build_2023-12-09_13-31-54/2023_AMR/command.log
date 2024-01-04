@@ -1,0 +1,2 @@
+Invoking command in '/home/leo/ROS/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/build/2023_AMR -- -j16 -l16
+Invoked command in '/home/leo/ROS/build/2023_AMR' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/build/2023_AMR -- -j16 -l16

@@ -1,0 +1,51 @@
+[0.115s] Invoking command in '/home/leo/ROS/ws/build/test': /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+[0.184s] Built target ament_cmake_python_copy_scripts
+[0.377s] running egg_info
+[0.378s] writing scripts.egg-info/PKG-INFO
+[0.379s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.379s] writing top-level names to scripts.egg-info/top_level.txt
+[0.380s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.380s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.417s] Built target ament_cmake_python_build_scripts_egg
+[0.432s] Invoked command in '/home/leo/ROS/ws/build/test' returned '0': /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+[0.483s] Invoking command in '/home/leo/ROS/ws/build/test': /usr/bin/cmake --install /home/leo/ROS/ws/build/test
+[0.491s] -- Install configuration: ""
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/pythonpath.sh
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/pythonpath.dsv
+[0.491s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[0.492s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.492s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.492s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.492s] -- Installing: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.492s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts
+[0.493s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/speed_calc.py
+[0.493s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.493s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[0.493s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/rpm_pub.py
+[0.493s] -- Up-to-date: /home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts/publisher.py
+[0.519s] Listing '/home/leo/ROS/ws/install/test/local/lib/python3.10/dist-packages/scripts'...
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/publisher.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/subscriber.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/rpm_pub.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/lib/test/speed_calc.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test//launch
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test//launch/turtle.launch.py
+[0.523s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test//launch/display.launch.py
+[0.523s] -- Installing: /home/leo/ROS/ws/install/test/share/test//launch/rpm_node.launch.py
+[0.524s] -- Installing: /home/leo/ROS/ws/install/test/share/test//launch/speed_project.launch.py
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/ament_prefix_path.sh
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/ament_prefix_path.dsv
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/path.sh
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/environment/path.dsv
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.bash
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.sh
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.zsh
+[0.524s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/local_setup.dsv
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/package.dsv
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/ament_index/resource_index/packages/test
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/cmake/testConfig.cmake
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/cmake/testConfig-version.cmake
+[0.525s] -- Up-to-date: /home/leo/ROS/ws/install/test/share/test/package.xml
+[0.586s] Invoked command in '/home/leo/ROS/ws/build/test' returned '0': /usr/bin/cmake --install /home/leo/ROS/ws/build/test

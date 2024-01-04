@@ -1,0 +1,22 @@
+[0.110s] Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+[0.137s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.259s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.260s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.492s] -- Found ros_ign_gazebo: 0.244.11 (/opt/ros/humble/share/ros_ign_gazebo/cmake)
+[0.534s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.663s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.492s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+[1.492s]   rosidl_generate_interfaces() called without any interface files
+[1.492s] Call Stack (most recent call first):
+[1.492s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.492s] 
+[1.492s] [0m
+[1.493s] -- Configuring incomplete, errors occurred!
+[1.493s] See also "/home/leo/ROS/ws/build/test/CMakeFiles/CMakeOutput.log".
+[1.500s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[1.504s] Invoked command in '/home/leo/ROS/ws/build/test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16

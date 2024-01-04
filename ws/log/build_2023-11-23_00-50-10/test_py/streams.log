@@ -1,0 +1,24 @@
+[0.641s] Invoking command in '/home/leo/ROS/ws/src/test_py': PYTHONPATH=/home/leo/ROS/ws/build/test_py/prefix_override:/home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_py build --build-base /home/leo/ROS/ws/build/test_py/build install --record /home/leo/ROS/ws/build/test_py/install.log --single-version-externally-managed
+[0.825s] running egg_info
+[0.825s] writing ../../build/test_py/test_py.egg-info/PKG-INFO
+[0.826s] writing dependency_links to ../../build/test_py/test_py.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../../build/test_py/test_py.egg-info/entry_points.txt
+[0.826s] writing requirements to ../../build/test_py/test_py.egg-info/requires.txt
+[0.826s] writing top-level names to ../../build/test_py/test_py.egg-info/top_level.txt
+[0.827s] reading manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../build/test_py/test_py.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.828s] running build_py
+[0.829s] running install
+[0.829s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.829s]   warnings.warn(
+[0.829s] running install_lib
+[0.830s] running install_data
+[0.831s] running install_egg_info
+[0.832s] removing '/home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.832s] Copying ../../build/test_py/test_py.egg-info to /home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages/test_py-0.0.0-py3.10.egg-info
+[0.833s] running install_scripts
+[0.852s] Installing my_publisher script to /home/leo/ROS/ws/install/test_py/lib/test_py
+[0.852s] Installing my_subscriber script to /home/leo/ROS/ws/install/test_py/lib/test_py
+[0.852s] writing list of installed files to '/home/leo/ROS/ws/build/test_py/install.log'
+[0.884s] Invoked command in '/home/leo/ROS/ws/src/test_py' returned '0': PYTHONPATH=/home/leo/ROS/ws/build/test_py/prefix_override:/home/leo/ROS/ws/install/test_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_py build --build-base /home/leo/ROS/ws/build/test_py/build install --record /home/leo/ROS/ws/build/test_py/install.log --single-version-externally-managed

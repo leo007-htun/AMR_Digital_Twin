@@ -1,0 +1,52 @@
+[0.162s] Invoking command in '/home/leo/ROS/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/install/2023_AMR
+[0.264s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.476s] -- Detecting C compile features
+[0.476s] -- Detecting C compile features - done
+[0.479s] -- Detecting CXX compiler ABI info
+[0.577s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.829s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.927s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.963s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.046s] WARNING: Package name "2023_AMR" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.101s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.101s] -- Configured cppcheck include dirs: 
+[1.101s] -- Configured cppcheck exclude dirs and/or files: 
+[1.104s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.107s] -- Added test 'lint_cmake' to check CMake code style
+[1.110s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.118s] -- Added test 'uncrustify' to check C / C++ code style
+[1.118s] -- Configured uncrustify additional arguments: 
+[1.120s] -- Added test 'xmllint' to check XML markup files
+[1.122s] -- Configuring done
+[1.126s] -- Generating done
+[1.127s] -- Build files have been written to: /home/leo/ROS/build/2023_AMR
+[1.134s] Invoked command in '/home/leo/ROS/build/2023_AMR' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/2023_AMR -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/install/2023_AMR
+[1.137s] Invoking command in '/home/leo/ROS/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/build/2023_AMR -- -j16 -l16
+[1.197s] Invoked command in '/home/leo/ROS/build/2023_AMR' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/build/2023_AMR -- -j16 -l16
+[1.248s] Invoking command in '/home/leo/ROS/build/2023_AMR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --install /home/leo/ROS/build/2023_AMR
+[1.257s] -- Install configuration: ""
+[1.258s] -- Execute custom install script
+[1.258s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/ament_index/resource_index/package_run_dependencies/2023_AMR
+[1.273s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/ament_index/resource_index/parent_prefix_path/2023_AMR
+[1.291s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/ament_prefix_path.sh
+[1.308s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/ament_prefix_path.dsv
+[1.324s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/path.sh
+[1.338s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/environment/path.dsv
+[1.353s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.bash
+[1.367s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.sh
+[1.380s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.zsh
+[1.396s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/local_setup.dsv
+[1.411s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/package.dsv
+[1.423s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/ament_index/resource_index/packages/2023_AMR
+[1.436s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/cmake/2023_AMRConfig.cmake
+[1.449s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/cmake/2023_AMRConfig-version.cmake
+[1.460s] -- Symlinking: /home/leo/ROS/install/2023_AMR/share/2023_AMR/package.xml
+[1.513s] Invoked command in '/home/leo/ROS/build/2023_AMR' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leo/ROS/ws/install/test_py:/opt/ros/humble /usr/bin/cmake --install /home/leo/ROS/build/2023_AMR

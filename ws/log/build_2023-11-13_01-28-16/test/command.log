@@ -1,0 +1,6 @@
+Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/test -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/test
+Invoked command in '/home/leo/ROS/ws/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leo/ROS/ws/src/test -DCMAKE_INSTALL_PREFIX=/home/leo/ROS/ws/install/test
+Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+Invoked command in '/home/leo/ROS/ws/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/leo/ROS/ws/build/test -- -j16 -l16
+Invoking command in '/home/leo/ROS/ws/build/test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leo/ROS/ws/build/test
+Invoked command in '/home/leo/ROS/ws/build/test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/leo/ROS/ws/build/test

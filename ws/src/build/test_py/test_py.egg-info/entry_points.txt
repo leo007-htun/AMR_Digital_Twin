@@ -1,0 +1,4 @@
+[console_scripts]
+my_publisher = test_py.publisher2.py:main
+my_subscriber = test_py.subscriber2.py:main
+
