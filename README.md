@@ -6,7 +6,7 @@
   </a>
 </div>
 
-
+    
     $ cd ws/src/test/world
     $ ign gazebo warehouse.sdf
 
