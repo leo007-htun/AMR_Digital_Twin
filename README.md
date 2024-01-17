@@ -1,4 +1,4 @@
-<h1 align="center">Facial Emotion Recognition With Pepper Robot</h1>
+<h1 align="center">Autonomous Mobile Robot for Digital Twin</h1>
 <div align="center">
 
   <a href="https://www.youtube.com/watch?v=O7xw2iyG2C4">
